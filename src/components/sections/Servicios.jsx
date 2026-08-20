@@ -33,7 +33,7 @@ export default function Servicios() {
   return (
     <section
       id="servicios"
-      className="scroll-mt-20 px-8 py-20 sm:px-16 sm:py-24"
+      className="scroll-mt-40 px-8 py-20 sm:px-16 sm:py-50"
     >
       <Reveal className="mx-auto flex max-w-4xl items-center gap-6">
         <span className="h-px flex-1 bg-primary" />
@@ -47,7 +47,7 @@ export default function Servicios() {
         {SERVICIOS.map(({ title, description, Icon }, index) => (
           <li key={title}>
             <Reveal delay={index * 0.1}>
-              <div className="flex min-h-[260px] flex-col gap-4 rounded-md bg-primary p-8 transition-[filter] duration-300 hover:brightness-110">
+              <div className="flex min-h-[300px] flex-col gap-4 rounded-md bg-primary p-8 transition-[filter] duration-300 hover:brightness-110">
                 <Icon className="h-10 w-10 text-white" strokeWidth={1.5} />
                 <div>
                   <p className="text-lg font-semibold text-white">{title}</p>

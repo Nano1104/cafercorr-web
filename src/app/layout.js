@@ -1,4 +1,5 @@
 import { Space_Grotesk, Inter } from "next/font/google";
+import { MotionConfig } from "motion/react";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
@@ -21,8 +22,10 @@ export default function RootLayout({ children }) {
       className={`${spaceGrotesk.variable} ${inter.variable} h-full scroll-smooth antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <MotionConfig reducedMotion="user">
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </MotionConfig>
       </body>
     </html>
   );

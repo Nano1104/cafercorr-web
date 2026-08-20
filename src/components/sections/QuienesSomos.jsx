@@ -16,7 +16,7 @@ export default function QuienesSomos() {
         <h2 className="text-4xl font-bold text-primary sm:text-5xl">
           Nosotros
         </h2>
-        <p className="mt-6 max-w-md text-lg leading-relaxed">
+        <p className="mt-6 max-w-md text-lg leading-relaxed text-white">
           En Cafercorr fabricamos envases de cartón corrugado a medida,
           acompañando cada producto desde el diseño inicial hasta la entrega
           final. Con años de trayectoria en el rubro del embalaje,

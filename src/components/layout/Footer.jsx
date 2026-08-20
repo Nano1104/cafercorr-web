@@ -14,7 +14,10 @@ const linkClassName =
 
 export default function Footer() {
   return (
-    <footer className="mt-auto bg-footer px-8 py-12 text-white sm:px-16">
+    <footer
+      id="footer"
+      className="mt-auto scroll-mt-20 bg-footer px-8 py-12 text-white sm:px-16"
+    >
       <div className="mx-auto flex max-w-4xl flex-col gap-10 sm:flex-row sm:items-start sm:justify-between">
         <div className="flex items-center gap-4">
           <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-md bg-white p-1.5">

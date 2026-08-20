@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/layout/Navbar";
+import HeroTitle from "@/components/sections/HeroTitle";
 
 // TODO: descargar la imagen del Hero y guardarla en `public/images/hero.jpg`
 // (o cambiar el src de abajo por la ruta relativa que uses).
@@ -19,9 +20,7 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black/75" />
 
-      <h1 className="absolute inset-x-0 top-[18%] z-10 text-center text-5xl font-bold text-white sm:text-9xl">
-        CAFERCORR
-      </h1>
+      <HeroTitle />
 
       <div className="absolute inset-x-0 top-1/2 z-20 -translate-y-1/2">
         <Navbar />
